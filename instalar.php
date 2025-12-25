@@ -6,10 +6,10 @@ ini_set('display_errors', 1);
 echo "Iniciando proceso...<br>";
 
 // 2. Credenciales (Cámbialas por las tuyas aquí mismo para probar)
-$host = 'sql108.byetcluster.com'; // Tu MySQL hostname
-$user = 'mseet_40694072'; // Tu FTP/MySQL username
-$pass = 'UjO1qflpDJmy';    // Tu contraseña de hosting
-$db   = 'mseet_40694072_links'; // Nombre de la DB creada
+$host = 'sql108..com'; // Tu MySQL hostname
+$user = ''; // Tu FTP/MySQL username
+$pass = '';    // Tu contraseña de hosting
+$db   = ''; // Nombre de la DB creada
 
 // 3. Intento de conexión
 $conn = new mysqli($host, $user, $pass, $db);
@@ -49,4 +49,5 @@ if ($conn->query($sql_insert)) {
 } else {
     echo "Error al insertar: " . $conn->error;
 }
+
 ?>
