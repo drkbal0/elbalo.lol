@@ -1,0 +1,31 @@
+# Archivos de configuración con credenciales
+config.php
+
+# Archivos del sistema
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# Archivos temporales
+*.log
+*.tmp
+*.cache
+
+# Archivos del editor
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# Archivos de entorno
+.env
+.env.local
+
+# Archivos de backup
+*.bak
+*.backup
+*~
+
+# Archivos de sesión PHP
+sessions/
